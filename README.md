@@ -228,6 +228,7 @@ Para facer comentarios ocultos empregamos a mesma sintaxte que para un comentari
 GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir.
 
 *Este texto está en cursiva*
+
 \*Este non porque omitimos a linguaxe de marcado para os símbolos `*` antepoñendo `\`.\*
 
 -------------------
