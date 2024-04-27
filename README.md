@@ -183,9 +183,15 @@ Lista da compra:
 
 ### Mencionar persoas e equipos
 
+Para mencionar a unha persoa ou equipo empregamos o símbolo `@` xunto co nome de usuario ou equipo. Así activarase unha notificación e chamará a súa atención. 
+
+@narfesan Como te va con el trabajo?
+
 -------------------
 
 ### Facer referencia a propostas e solicitudes de extracción
+
+
 
 -------------------
 
