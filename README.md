@@ -113,6 +113,10 @@ Podemos definir enlaces relativos, para chegar a outro arquivo dende o actual, e
 
 ### Imaxes
 
+Pódense amosar imaxes empregando o símbolo `!` seguido do texto alternativo entre corchetes ´[]´, seguido do vínculo da imaxe entre parénteses `()`.
+
+![Imaxe de proba para insertar unha imaxe nun README con linguaxe de marcado](https://www.enriquedans.com/wp-content/uploads/2018/06/GitHub-Octocat.jpg)
+
 -------------------
 
 #### Especificar un tema en el que se muestra una imagen
