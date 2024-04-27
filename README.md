@@ -124,8 +124,8 @@ Pódense amosar imaxes empregando o símbolo `!` seguido do texto alternativo en
 Tamén podemos especificar o tema para o que se amosa unha imaxe co elemento `<picture>` de HTML e a característica `prefers-color-scheme`, coa que poderemos elexir entre o modo claro e o oscuro, podendo optimizar as imaxes para cada tipo de fondo.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://www.shutterstock.com/es/image-photo/beautiful-young-woman-sleeping-bed-night-2334679657">
-  <source media="(prefers-color-scheme: light)" srcset="https://www.shutterstock.com/es/image-photo/top-view-woman-bed-wearing-sleep-2210119641">
+  <source media="(prefers-color-scheme: dark)" srcset="https://w7.pngwing.com/pngs/466/810/png-transparent-sleep-sleepy-miscellaneous-people-sleep.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://img.lovepik.com/element/40146/9796.png_860.png">
   <img alt="A imaxe amosa a alguén esperto en modo claro e a alguén durmindo en modo oscuro." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
