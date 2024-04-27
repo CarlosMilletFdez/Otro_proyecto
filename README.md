@@ -167,7 +167,6 @@ Para crear listas aniñadas temos que deixar sangría nos elementos inferiores a
    - Bases de datos
    - Formación e orientación laboral
      
-
 -------------------
 
 ### Listas de tarefas
@@ -187,19 +186,32 @@ Para mencionar a unha persoa ou equipo empregamos o símbolo `@` xunto co nome d
 
 @narfesan Como te va con el trabajo?
 
+>![NOTE]
+>Só se notifica a un usuario se ten acceso de lectura ó repositorio ou se é membro da organización á que pertence o repositorio.
+
 -------------------
 
 ### Facer referencia a propostas e solicitudes de extracción
 
-
+Para facer referencia a propostas e solicitudes de incorporación de cambios dentro do repositorio escribimos `#` seguido do número ou título da proposta ou solicitude de extracción, e con enter completamos o resultado que marquemos.
 
 -------------------
 
 ### Facer referencia a recursos externos
 
+Configurando as referencias autovinculadas para un repositorio, as referencias a recursos externos de ferramentas integradas no GitHub como JIRA(realiza informes de problemas) ou Zendesk, convírtense en vínculos acortados.
+
+Por exemplo:
+
+Prefijo de referencia: `JIRA-`
+URL de destino: `https://jira.example.com/issue?query=<num>`
+Versión preliminar: `JIRA-123` se convierte en `https://jira.example.com/issue?query=123`
+
 -------------------
 
 ### Cargar activos
+
+Pódense cargar activos coma imaxes se as arrastramos dun buscador de arquivos e as soltamos ou pegamos. Podense cargar en incidencias, solicitudes de incorporacion de cambios, comentarios e arquivos `.md` no repositorio.
 
 -------------------
 
@@ -273,6 +285,8 @@ GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` a
 -------------------
 
 ### Inhabilitar a representación da linguaxe de marcado
+
+Cando vemos un documento
 
 -------------------
 
