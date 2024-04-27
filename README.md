@@ -26,7 +26,11 @@
   - [Inhabilitar a representación da linguaxe de marcado](#inhabilitar-a-representación-da-linguaxe-de-marcado)
 - [Sintaxe de formato avanzada](#sintaxe-de-formato-avanzada)
   - [Organizar a información en táboas](#organizar-a-información-en-táboas)
-  - 
+  - [Organización da información con seccións contraídas](#organizarción-da-información-con-seccións-contraídas)
+  - [Crear e resaltar bloques de código](#crear-e-resaltar-bloques-de-código)
+  - [Creación de diagramas](#creación-de-diagramas)
+  - [Expresións matemáticas](#expresións-matemáticas)
+  - [Adxuntar arquivos](#adxuntar-arquivos)
 
 
 ## Sintaxe de formato básica
@@ -297,12 +301,27 @@ Cando vemos un documento ou o previsualizamos, a linguaxe de marcado está habil
 
 #### Creación dunha táboa
 
+Pódemos crear táboas con canalizacións `|` e guións `-`. Deixamos unha liña en branco antes de táboa e usaremos os guións para crear cada encabezado de columna, e as barras verticais para separar as columnas. Non é necesario que as celdas estean perfectamente aliñadas e as liñas de encabezamento deben conter polo menos 3 guións.
+
+|Opcións básicas| Opcións avanzadas|
+|---------------|------------------|
+|Estilos de texto| Creación de taboas|
+|Imaxes|Seccións contraídas|
+|Listas|Creación de diagramas|
 
 #### Formatear o contido dentro da túa táboa
 
+Podemos incorporar formatos, vínculos, bloques de código insertados e estilos de texto na táboa. E se engadimos dous puntos `:` á esquerda, dereita ou ós dous lados podemos aliñar o texto
+
+|Opcións básicas| Opcións avanzadas| Outras |
+|:---------------|------------------:|:---:|
+|*Estilos de texto*| __Creación de taboas__|...|
+|Imaxes `<picture>`|Seccións contraídas|...|
+|Listas|Creación de **diagramas**|...|
+
 -------------------
 
-### Organización de la información con secciones contraídas
+### Organización da información con seccións contraídas
 #### Creación de una sección contraída
 
 -------------------
