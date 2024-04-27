@@ -380,16 +380,6 @@ Se queremos mostrar as comillas triples nun bloque de código podemos encerralas
 
 #### Resaltado de sintaxis
 
-
-
--------------------
-
-### Creación de diagramas
-
-#### Crear diagramas
-
-#### Crear diagramas de Mermaid
-
 Nos bloques de código delimitados co uso de comillas triples podemos agregar un identificador opcional de lenguaje de programación para habilitar o resaltado da sintaxe. Así, a sintaxe cambia de cor e o estilo do código fonte facilita a lectura.
 
 ```pascal
@@ -424,6 +414,18 @@ public void amosaFinal() {// 311
 
 		}
 ```
+
+-------------------
+
+### Creación de diagramas
+
+#### Crear diagramas
+
+Podemos crear diagramas con tres sintaxis diferentes: Mermaid, geoJSON e topoJSON, e STL ASCII. A representación de diagramas está dispoñible nos arquivos GitHub Issues, GitHub Discussions, nas solicitudes de incorporación de cambios, wikis e Markdown.
+
+#### Crear diagramas de Mermaid
+
+
 
 -------------------
 
