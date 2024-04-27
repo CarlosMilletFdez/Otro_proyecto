@@ -186,6 +186,10 @@ Lista da compra:
 
 ### Notas ó pé
 
+Pódense agregar notas ó pé empregando `^` e un número entre corchetes `[]` o final da liña que queremos referenciar cunha nota ó pé, que se verá no pé de páxina.
+
+As notas ó pé vense ó pé de páxina[^1].
+
 -------------------
 
 ### Alertas
