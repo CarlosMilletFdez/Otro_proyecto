@@ -229,7 +229,7 @@ GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` a
 
 *Este texto está en cursiva*
 
-\*Este non porque omitimos a linguaxe de marcado para os símbolos `*` antepoñendo `\`.\*
+\*Este non porque omitimos a linguaxe de marcado para os símbolos `*` antepoñendo `\`, polo que aparecen visibles no documento\*
 
 -------------------
 
