@@ -190,6 +190,8 @@ Pódense agregar notas ó pé empregando `^` e un número entre corchetes `[]` o
 
 As notas ó pé vense ó pé de páxina[^1].
 
+[^1]:Esta é unha nota ó pé.
+
 -------------------
 
 ### Alertas
