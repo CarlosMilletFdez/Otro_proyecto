@@ -286,7 +286,7 @@ GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` a
 
 ### Inhabilitar a representación da linguaxe de marcado
 
-Cando vemos un documento
+Cando vemos un documento ou o previsualizamos, a linguaxe de marcado está habilitada, para ver o código fonte do arquivo temos que pulsar no botón Code situado xunto ó botón Preview, ou editar o arquivo, onde se inhabilita a interpretación de linguaxe de marcado.
 
 -------------------
 
