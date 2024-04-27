@@ -152,6 +152,7 @@ Para crear listas aniñadas temos que deixar sangría nos elementos inferiores a
 ### Listas de tarefas
 
 Tamén podemos facer listas de tarefas, para o que empregamos un guión `-` antepoñendo a liña de texto, seguido de corchetes `[]` e o texto. Para marcar unha tarefa como realizada poñemos unha `x` entre os corchetes.
+
 Lista da compra:
 - [x] Patacas
 - [x] Ovos
@@ -183,11 +184,28 @@ Lista da compra:
 
 -------------------
 
-### Notas ó pie
+### Notas ó pé
 
 -------------------
 
 ### Alertas
+
+As alertas baséanse na sintaxe blockquote e empréganse para resaltar información crítica. Amósanse con cores no código e iconas distintas segundo a importancia do contido. Edeme empregarse unha liña blockquote especificando o tipo de alerta seguida da información entrecomillada con `>`.
+
+> [!NOTE]
+> Información importante que os usuarios deberían coñecer.
+
+> [!TIP]
+> Comentarios de axuda para facilitar ou facer cousas dunha forma máis sinxela.
+
+> [!IMPORTANT]
+> Información clave que os usuarios precisan saber para acadar os seus resultados.
+
+> [!WARNING]
+> Información urxente que necesita a atención inmediata do usuario e evitar problemas.
+
+> [!CAUTION]
+> Comentarios sobre riscos ou resultados negativos de certas accións.
 
 -------------------
 
