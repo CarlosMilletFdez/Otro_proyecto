@@ -1,4 +1,15 @@
-Encabezados
+# Sintaxis de escritura con markdown en documentación de GitHub 
+
+## - Índice
+- [Sintaxis de formato básica](#sintaxis-de-formato-básica)
+  - [Encabezados](#encabezados)
+  - [Estilos de texto](#estilos-de-texto)
+  - [Entrecomillado de texto](#entrecomillado-de-texto)
+  - [Código de cita](#código-de-cita)
+
+## Sintaxis de formato básica
+
+### Encabezados
 # Este es mi archivo README inicial
 ## Completaremos a partir de aquí
 ### Encabezado de terceiro nivel
@@ -6,7 +17,7 @@ Encabezados
 ##### Encabezado de quinto nivel
 
 
-Estilos de texto
+### Estilos de texto
 **Este texto esta en negrita**
 
 __Este tamén__ 
@@ -18,11 +29,11 @@ _Este texto está en cursiva_
 ~~Este texto está tachado~~
 
 
-Entrecomillado de texto:
+### Entrecomillado de texto:
 > Esto es una cita
 
 
-Código de cita
+### Código de cita
 Algunos comandos básicos de git son
 ```
 git status
