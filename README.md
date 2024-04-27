@@ -100,9 +100,14 @@ Existen [métodos abreviados ou atallos do teclado](https://docs.github.com/es/g
 ### Enlaces de sección
 
 Os enlaces de sección representados mediante a icona de dous eslabóns, aparecen o deslizar o punteiro do rato sobre un encabezado, que vinculan directamente a unha sección do arquivo.
+
 -------------------
 
 ### Vínculos relativos
+
+Podemos definir enlaces relativos, para chegar a outro arquivo dende o actual, especificando o texto do enlace entre parénteses e a ruta relativa do documento que queremos enlazar.
+
+[Enlace de ejemplo relativo](./ejemplo_enlace_relativo.md)
 
 -------------------
 
