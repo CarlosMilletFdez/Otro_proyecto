@@ -24,6 +24,9 @@
   - [Ocultar o contido con comentarios](#ocultar-o-contido-con-comentarios)
   - [Ignorar formato de Markdown](#ignorar-formato-de-markdown)
   - [Inhabilitar a representación da linguaxe de marcado](#inhabilitar-a-representación-da-linguaxe-de-marcado)
+- [Sintaxe de formato avanzada](#sintaxe-de-formato-avanzada)
+  - [Organizar a información en táboas](#organizar-a-información-en-táboas)
+  - 
 
 
 ## Sintaxe de formato básica
@@ -237,33 +240,41 @@ GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` a
 
 -------------------
 
-Organizar la información en tablas
-Creación de una tabla
-Formatear el contenido dentro de tu tabla
+
+## Sintaxe de formato avanzada
+
+### Organizar a información en táboas
+
+#### Creación dunha táboa
+
+
+#### Formatear o contido dentro da túa táboa
 
 -------------------
 
-Organización de la información con secciones contraídas
-Creación de una sección contraída
+### Organización de la información con secciones contraídas
+#### Creación de una sección contraída
 
 -------------------
 
-Crear y resaltar bloques de código
-Bloques de código delimitados
-Resaltado de sintaxis
+### Crear e resaltar bloques de código
+
+#### Bloques de código delimitados
+#### Resaltado de sintaxis
 
 -------------------
 
-Crear diagramas
-Crear diagramas de Mermaid
+### Creación de diagramas
+#### Crear diagramas
+#### Crear diagramas de Mermaid
 
 -------------------
 
-Expresiones matemáticas
+### Expresións matemáticas
 
 -------------------
 
-Adjuntar archivos
+### Adxuntar arquivos
 
 -------------------
 
