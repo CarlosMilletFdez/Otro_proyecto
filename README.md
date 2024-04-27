@@ -82,7 +82,7 @@ git commit
 
 Cando aparece algún problema, ou nas solicitudes de incorporación de código e nos debates, podemos resaltar texto con cores dentro dunha oración mediante comillas simples, en tres formatos admitidos hex `#0969DA`, rgb `rgb(9, 105, 218)` ou hsl `hsl(212, 92%, 45%)`. A visualización de cor só se admite en problemas, solicitudes de incorporación de cambios e debates, polo que non se implementa neste documento. 
 
-A cor de fondo no modo claro é `#ffffff e `#000000 para o modo oscuro.
+A cor de fondo no modo claro é `#ffffff` e `#000000` para o modo oscuro.
 
 -------------------
 
@@ -90,7 +90,7 @@ A cor de fondo no modo claro é `#ffffff e `#000000 para o modo oscuro.
 
 Pódese crear un vínculo en liña escribindo o texto entre corchetes `[]` e a URL entre parénteses `()`.
 
-Existen métodos abreviados para incorporar a sintaxe a documentos de GitHub, que se poden ver no seguinte enlace. [Métodos abreviatos ou atallos do teclado](https://docs.github.com/es/get-started/accessibility/keyboard-shortcuts)
+Existen [métodos abreviados ou atallos do teclado](https://docs.github.com/es/get-started/accessibility/keyboard-shortcuts) para incorporar a sintaxe a documentos de GitHub, que se poden ver no seguinte enlace. 
 
 -------------------
 
