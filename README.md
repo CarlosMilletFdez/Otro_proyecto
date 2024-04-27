@@ -374,13 +374,56 @@ deitada frente ao mar, ise camiño..."
 ### Crear e resaltar bloques de código
 
 #### Bloques de código delimitados
+
+Como vimos nas Citas de código da Sintaxe básica, podemos comentar bloques de código colocandolo entre comillas triples ```, deixando unha liña en branco antes e despois dos bloques de código. 
+Se queremos mostrar as comillas triples nun bloque de código podemos encerralas entre comillas cuádruples ````.
+
 #### Resaltado de sintaxis
+
+
 
 -------------------
 
 ### Creación de diagramas
+
 #### Crear diagramas
+
 #### Crear diagramas de Mermaid
+
+Nos bloques de código delimitados co uso de comillas triples podemos agregar un identificador opcional de lenguaje de programación para habilitar o resaltado da sintaxe. Así, a sintaxe cambia de cor e o estilo do código fonte facilita a lectura.
+
+```pascal
+procedure TForm1.Timer1Timer(Sender: TObject);
+begin
+  Label1.Caption := FormatDateTime('mm:dd:yyyy', Now);
+end;
+```
+
+```java
+public void amosaFinal() {// 311
+		FileReader fe = null;
+		int caracter, i;
+
+		try {
+			fe = new FileReader(archivo);
+			i = 0;
+			while ((caracter = fe.read()) != -1) {
+				if ((char) caracter != '\r' && (char) caracter != '\n') {
+					i++;
+					System.out.print((char) caracter);
+				} else if ((char) caracter == '\r') {
+					System.out.println(" --->" + i);
+					i = 0;
+				}
+			}
+			System.out.println(" --->" + i);
+		}
+
+		catch (IOException e) {
+			System.out.println("Error: " + e.toString());
+
+		}
+```
 
 -------------------
 
