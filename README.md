@@ -325,7 +325,7 @@ Podemos incorporar formatos, vínculos, bloques de código insertados e estilos 
 
 #### Creación de una sección contraída
 
-Podemos ocultar contidos temporalmente mediante secións contraídas que podemos expandir. Calquera contido dentro dun bloque `<details>``</details>` estará contraído ata desplegalo. Dentro do bloque `<details>` empregamos a etiqueta `<sumary></sumary>` para resaltar o texto que queremos empregar para desplegar o contido oculto de forma predeterminada.
+Podemos ocultar contidos temporalmente mediante secións contraídas que podemos expandir. Calquera contido dentro dun bloque `<details></details>` estará contraído ata desplegalo. Dentro do bloque `<details>` empregamos a etiqueta `<sumary></sumary>` para resaltar o texto que queremos empregar para desplegar o contido oculto de forma predeterminada.
 
 <details>
   
