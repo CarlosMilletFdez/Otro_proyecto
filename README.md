@@ -59,11 +59,19 @@ Para resaltar un texto mediante o tachado emprégase os símbolos `~~` ó inicio
 -------------------
 
 ### Entrecomillado de texto:
-> Esto es una cita
+Pódese entrecomillar un texto co símbolo `>` para resaltar unha cita.
+
+> Se a vida son dous días, quedo co sábado e co domingo.
 -------------------
 
 ### Código de cita
-Algunos comandos básicos de git son
+
+Pódese resaltar un código mediante comillas simples ` ou un bloque de código entre comillas triples ```. 
+
+Comando simple:
+`git init`
+
+Bloque de código:
 ```
 git status
 git add
@@ -72,9 +80,17 @@ git commit
 -------------------
 ### Modelos de cor compatibles
 
+Cando aparece algún problema, ou nas solicitudes de incorporación de código e nos debates, podemos resaltar texto con cores dentro dunha oración mediante comillas simples, en tres formatos admitidos hex `#0969DA`, rgb `rgb(9, 105, 218)` ou hsl `hsl(212, 92%, 45%)`. A visualización de cor só se admite en problemas, solicitudes de incorporación de cambios e debates, polo que non se implementa neste documento. 
+
+A cor de fondo no modo claro é `#ffffff e `#000000 para o modo oscuro.
+
 -------------------
 
 ### Vínculos
+
+Pódese crear un vínculo en liña escribindo o texto entre corchetes `[]` e a URL entre parénteses `()`.
+
+Existen métodos abreviados para incorporar a sintaxe a documentos de GitHub, que se poden ver no seguinte enlace. [Métodos abreviatos ou atallos do teclado](https://docs.github.com/es/get-started/accessibility/keyboard-shortcuts)
 
 -------------------
 
