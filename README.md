@@ -151,6 +151,12 @@ Para crear listas aniñadas temos que deixar sangría nos elementos inferiores a
 
 ### Listas de tarefas
 
+Tamén podemos facer listas de tarefas, para o que empregamos un guión `-` antepoñendo a liña de texto, seguido de corchetes `[]` e o texto. Para marcar unha tarefa como realizada poñemos unha `x` entre os corchetes.
+Lista da compra:
+- [x] Patacas
+- [x] Ovos
+- [] Sal
+- [] Aceite
 -------------------
 
 ### Mencionar persoas e equipos
