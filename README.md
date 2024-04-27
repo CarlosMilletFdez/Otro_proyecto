@@ -111,8 +111,41 @@ Especificar un tema en el que se muestra una imagen
 -------------------
 
 ### Listas
-Listas aniñadas
 
+Pódense crear listas desordeadas empregando os símbolos `-`, `*` ou `+` antes da liña de texto.
+
++ Contornos de desenvolvemento
+- Sistemas informáticos
+* Programación
+* Linguaxe de marcas
+- Bases de datos
++ Formación e orientación laboral
+
+Para crear listas ordeadas, en lugar de empregar os símbolos anteriores, antepoñemos un número á liña de texto.
+
+1. Contornos de desenvolvemento
+2. Sistemas informáticos
+3. Programación
+4. Linguaxe de marcas
+5. Bases de datos
+6. Formación e orientación laboral
+  
+#### Listas aniñadas
+
+Para crear listas aniñadas temos que deixar sangría nos elementos inferiores a outro.
+
+1. Asignaturas primeiro curso de DAM:
+   + Contornos de desenvolvemento
+       * Teoría
+       - Práctica
+   + Sistemas informáticos
+       * Teoría
+       - Práctica
+   - Programación
+   * Linguaxe de marcas
+   - Bases de datos
+   - Formación e orientación laboral
+     
 
 -------------------
 
