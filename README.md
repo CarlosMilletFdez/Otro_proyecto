@@ -186,7 +186,7 @@ Lista da compra:
 
 ### Notas ó pé
 
-Pódense agregar notas ó pé empregando `^` e un número entre corchetes `[]` o final da liña que queremos referenciar cunha nota ó pé, que se verá no pé de páxina.
+Pódense agregar notas ó pé empregando `^` e un número entre corchetes `[]` o final da liña que queremos referenciar cunha nota ó pé, que se verá no pé de páxina. A información da nota especifícase do mesmo xeito que cando a agregamos despois de dous puntos `:`.
 
 As notas ó pé vense ó pé de páxina[^1].
 
@@ -217,9 +217,18 @@ As alertas baséanse na sintaxe blockquote e empréganse para resaltar informaci
 
 ### Ocultar o contido con comentarios
 
+Para facer comentarios ocultos empregamos a mesma sintaxte que para un comentario en HTML.
+
+<!-- Este contido non aparece na visualización do documento -->
+
 -------------------
 
 ### Ignorar formato de Markdown
+
+GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir.
+
+*Este texto está en cursiva*
+\*Este non porque omitimos a linguaxe de marcado para os símbolos `*` antepoñendo `\`.\*
 
 -------------------
 
