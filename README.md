@@ -328,7 +328,8 @@ Podemos incorporar formatos, vínculos, bloques de código insertados e estilos 
 Podemos ocultar contidos temporalmente mediante secións contraídas que podemos expandir. Calquera contido dentro dun bloque `<details>``</details>` estará contraído ata desplegalo. Dentro do bloque `<details>` empregamos a etiqueta `<sumary></sumary>` para resaltar o texto que queremos empregar para desplegar o contido oculto de forma predeterminada.
 
 <details>
-<sumary>Deitado frente ó mar</sumary>
+  
+<sumary> Deitado frente ó mar </sumary>
   
   "Lingoa proletaria do meu pobo
 eu fáloa porque sí, porque me gosta,
@@ -367,6 +368,7 @@ Galicia, doce mágoa das Españas,
 deitada frente ao mar, ise camiño..."
 
 </details>
+
 -------------------
 
 ### Crear e resaltar bloques de código
