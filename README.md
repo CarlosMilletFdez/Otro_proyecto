@@ -159,8 +159,8 @@ Tamén podemos facer listas de tarefas, para o que empregamos un guión `-` ante
 Lista da compra:
 - [x] Patacas
 - [x] Ovos
-- [] Sal
-- [] Aceite
+- [ ] Sal
+- [ ] Aceite
 -------------------
 
 ### Mencionar persoas e equipos
@@ -181,6 +181,10 @@ Lista da compra:
 
 ### Usar emojis
 
+Pódense empregar emojis na escritura de marcado mediante `:EMOJICODE:`, poñendo o nome do emoji entre `:`, así:
+- Polgar arriba `:+1:`: :+1:
+- Cara sorrinte `:blush:`: :blush:
+- Alien `:alien:`::alien:
 -------------------
 
 ### Párrafos
@@ -220,7 +224,7 @@ As alertas baséanse na sintaxe blockquote e empréganse para resaltar informaci
 
 ### Ocultar o contido con comentarios
 
-Para facer comentarios ocultos empregamos a mesma sintaxte que para un comentario en HTML.
+Para facer comentarios ocultos empregamos a mesma sintaxte que para un comentario en HTML `<!--...-->`.
 
 <!-- Este contido non aparece na visualización do documento -->
 
