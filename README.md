@@ -575,11 +575,15 @@ Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a 
 
 Para agregar unha expresión matemática en bloque, teremos que delimitala con dous símbolos de dolar `$$`.
 
+**Desigualdad de Hölder:**
+
 $$\left| \int_{a}^{b} f(x) \, dx \right|^2 \leq \left( \int_{a}^{b} |f(x)|^2 \, dx \right) \cdot \left( \int_{a}^{b} 1 \, dx \right)$$
 
 -------------------
 
 ### Adxuntar arquivos
+
+
 
 -------------------
 
