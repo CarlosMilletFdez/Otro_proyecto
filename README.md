@@ -145,7 +145,7 @@ Tamén podemos especificar o tema para o que se amosa unha imaxe co elemento `<p
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bb3e.png">
-  <img alt="A imaxe amosa un galo en modo claro e morcego en modo oscuro." src="https://assets.stickpng.com/thumbs/5a0ad6bc5a997e1c2cea10f7.png">
+  <img alt="A imaxe amosa un galo en modo claro e morcego en modo oscuro." src="https://w1.pngwing.com/pngs/178/587/png-transparent-bird-chicken-rooster-broiler-gamecock-gallic-rooster-cockfight-painting.png">
 </picture>
 
 -------------------
@@ -582,7 +582,11 @@ $$\left| \int_{a}^{b} f(x) \, dx \right|^2 \leq \left( \int_{a}^{b} |f(x)|^2 \, 
 
 ### Adxuntar arquivos
 
+Para adxuntar un arquivo a unha proposta ou unha conversa de solicitude de extracción, arrastramos o arquivo e soltámolo no cador de comentarios. Tamén podemos facelo clicando na icona de adxuntar, na barra de formato do cadro de comentario.
 
+Ó adxuntar un arquivo, cárgase en GitHub e amosa a URL anonimizada do arquivo. 
+
+O tamaño máximo do arquivo é:
 
 -------------------
 
