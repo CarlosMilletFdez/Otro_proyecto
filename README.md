@@ -350,39 +350,72 @@ Podemos ocultar contidos temporalmente mediante secións contraídas que podemos
 <summary>Deitado frente ó mar</summary>
   
   "Lingoa proletaria do meu pobo
+  
 eu fáloa porque sí, porque me gosta,
+
 porque me peta e quero e dame a gaña;
+
 porque me sai de dentro, alá do fondo
+
 de unha tristura aceda que me abrangue
+
 ao ver tantos patufos desleigados,
+
 pequenos mequetrefes sin raíces
+
 que ao pór a garabata xa non saben
+
 afirmarse no amor dos devanceiros,
+
 falar a fala nai,
+
 a fala dos abós que temos mortos,
+
 e ser, co rostro erguido,
+
 mariñeiros, labregos do lingoaxe,
+
 remo i arado, proa e rella sempre.
 
+
 Eu fáloa porque sí, porque me gosta
+
 e quero estar cos meus, coa xente miña,
+
 perto dos homes bós que sofren longo
+
 unha historia contada en outra lingoa.
+
 Non falo pra os soberbios,
+
 non falo pra os ruís e poderosos,
+
 non falo pra os finchados,
+
 non falo pra os estúpidos,
+
 non falo pra os valeiros,
+
 que falo pra os que agoantan rexamente
+
 mentiras e inxusticias de cotío;
+
 pra os que súan e choran
+
 un pranto cotidián de volvoretas,
+
 de lume e vento sobre os ollos núos.
+
 Eu non podo arredar as miñas verbas
+
 de todos os que sofren neste mundo.
+
 E ti vives no mundo, terra miña,
+
 berce da miña estirpe,
+
 Galicia, doce mágoa das Españas,
+
 deitada frente ao mar, ise camiño..."
 
 </details>
@@ -443,7 +476,15 @@ Podemos crear diagramas con tres sintaxis diferentes: Mermaid, geoJSON e topoJSO
 
 #### Crear diagramas de Mermaid
 
+Mermaid representa texto en diagramas, por exemplo, gráficos de fluxo, diagramas de secuencia, gráficos circulares e máis. Para crear un diagrama de Mermaid temos que agregar a sintaxe dentro dun bloque de código delimitado, con comillas triples, co identificador da linguaxe, neste caso `mermaid`.
 
+```mermaid
+graph TD;
+	1-->2;
+	2-->3;
+	3-->4;
+	4-->5;
+	5-->1;
 
 -------------------
 
