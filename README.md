@@ -557,14 +557,12 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
         {
           "type": "LineString",
           "properties": {"name": "Ribeira to Puebla"},
-          "arcs": [[0, 1]]
+          "coordinates": [[-9.0177343, 42.5421231], [-8.8695202, 42.6660563]]
         }
       ]
     }
   },
-  "arcs": [
-    [[-9.0177343, 42.5421231], [-8.8695202, 42.6660563]]
-  ]
+  "arcs": []
 }
 ```
 
