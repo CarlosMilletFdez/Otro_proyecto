@@ -494,14 +494,38 @@ Empregando a sintaxe GeoJSON poderemos crear mapas interactivos. Para isto agreg
 
 ```geojson
 {
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [-8.5448445, 42.8782132]
-  },
-  "properties": {
-    "name": "Santiago de Compostela"
-  }
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.5448445, 42.8782132]
+      },
+      "properties": {
+        "name": "Santiago de Compostela"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-8.5498445, 42.8832132],
+            [-8.5398445, 42.8832132],
+            [-8.5398445, 42.8732132],
+            [-8.5498445, 42.8732132],
+            [-8.5498445, 42.8832132]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Cuadrado azul de 1km alrededor de Santiago de Compostela",
+        "color": "#0000FF"
+      }
+    }
+  ]
 }
 ```
 
