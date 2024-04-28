@@ -63,6 +63,22 @@ Para resaltar un texto mediante o tachado emprégase os símbolos `~~` ó inicio
 
 - ~~Este texto está tachado~~
 
+Podemos empregar a cursiva en negrita e anidada empregando os símbolos `** **` e `__ __` dentro dunha sentencia cos anteriores:
+
+- **Este texto está en negrita con un elemento en __cursiva__.**
+
+Tamén podemos facer toda unha sentencia en negrita e crusiva empregando os símbolos `*** ***`:
+
+- ***Toda esta liña está en negrita e cursiva.***
+
+Para empregar subíndices empregamos as etiquetas `<sub></sub>`:
+
+- **H<sub>2</sub>O**
+
+Para empregar superíndices empregamos as etiquetas `<sup></sup>`.
+
+- **H<sup>2</sup>=C<sup>2</sup>+C<sup>2</sup>**
+
 -------------------
 
 ### Entrecomillado de texto:
@@ -130,7 +146,7 @@ Tamén podemos especificar o tema para o que se amosa unha imaxe co elemento `<p
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bb3e.png">
   <source media="(prefers-color-scheme: light)" srcset="https://assets.stickpng.com/thumbs/5a0ad6bc5a997e1c2cea10f7.png">
-  <img alt="A imaxe amosa un galo en modo claro e morcego en modo oscuro. "src="https://assets.stickpng.com/thumbs/5a0ad6bc5a997e1c2cea10f7.png">
+  <img alt= "A imaxe amosa un galo en modo claro e morcego en modo oscuro." src="https://assets.stickpng.com/thumbs/5a0ad6bc5a997e1c2cea10f7.png">
 </picture>
 
 -------------------
