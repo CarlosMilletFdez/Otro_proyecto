@@ -297,7 +297,7 @@ Para facer comentarios ocultos empregamos a mesma sintaxte que para un comentari
 
 ### Ignorar formato de Markdown
 
-GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir. Tamén podemos omitir o Markdown incluindo os caracteres a ignorar entre as etiquetas <span><span></span> <span></span></span>.
+GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir. Tamén podemos omitir o Markdown incluindo os caracteres a ignorar entre etiquetas co identificador "span".
 
 *Este texto está en cursiva*
 
@@ -310,7 +310,6 @@ GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` a
 Cando vemos un documento ou o previsualizamos, a linguaxe de marcado está habilitada, para ver o código fonte do arquivo temos que pulsar no botón Code situado xunto ó botón Preview, ou editar o arquivo, onde se inhabilita a interpretación de linguaxe de marcado.
 
 -------------------
-
 
 ## Sintaxe de formato avanzada
 
