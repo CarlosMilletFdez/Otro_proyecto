@@ -545,16 +545,6 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
       "type": "GeometryCollection",
       "geometries": [
         {
-          "type": "Point",
-          "properties": {"name": "Ribeira"},
-          "coordinates": [-9.0177343, 42.5421231]
-        },
-        {
-          "type": "Point",
-          "properties": {"name": "Puebla"},
-          "coordinates": [-8.8695202, 42.6660563]
-        },
-        {
           "type": "LineString",
           "properties": {"name": "Ribeira to Puebla"},
           "coordinates": [[-9.0177343, 42.5421231], [-8.8695202, 42.6660563]]
