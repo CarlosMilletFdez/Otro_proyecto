@@ -537,32 +537,26 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
 {
   "type": "Topology",
   "transform": {
-    "scale": [0.0005000500050005, 0.00010001000100010001],
-    "translate": [100, 0]
+    "scale": [1, 1],
+    "translate": [0, 0]
   },
   "objects": {
-    "galicia": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "type": "Point",
-          "properties": {"name": "Ribeira"},
-          "coordinates": [4000, 5000]
-        },
-        {
-          "type": "Point",
-          "properties": {"name": "Puebla"},
-          "coordinates": [6000, 7000]
-        },
-        {
-          "type": "LineString",
-          "properties": {"name": "Ribeira to Puebla"},
-          "coordinates": [[4000, 5000], [6000, 7000]]
-        }
+    "line": {
+      "type": "LineString",
+      "coordinates": [
+        [-9.0177343, 42.5421231],
+        [-8.8695202, 42.6660563]
       ]
+    },
+    "ribeira": {
+      "type": "Point",
+      "coordinates": [-9.0177343, 42.5421231]
     }
   },
-  "arcs": []
+  "arcs": [],
+  "bbox": [-9.03, 42.53, -9, 42.56], // Ajustar la bounding box para centrar en Ribeira
+  "center": [-9.0177343, 42.5421231], // Establecer el centro en Ribeira
+  "zoom": 12 // Establecer un nivel de zoom adecuado para Ribeira
 }
 ```
 
