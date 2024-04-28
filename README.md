@@ -297,7 +297,7 @@ Para facer comentarios ocultos empregamos a mesma sintaxte que para un comentari
 
 ### Ignorar formato de Markdown
 
-GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir. Tamén podemos omitir o Markdown incluindo os caracteres a ignorar entre as etiquetas '<span></span>`.
+GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir. Tamén podemos omitir o Markdown incluindo os caracteres a ignorar entre as etiquetas '<span>``</span>`.
 
 *Este texto está en cursiva*
 
