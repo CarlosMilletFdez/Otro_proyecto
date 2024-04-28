@@ -550,20 +550,21 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
           "coordinates": [-9.0177343, 42.5421231]
         },
         {
-          "type": "Polygon",
-          "properties": {"name": "Circulo"},
-          "coordinates": [[
-            [-9.0177343, 42.5421231],
-            [-9.0148882, 42.5425656],
-            [-9.0142746, 42.5377489],
-            [-9.0171207, 42.5373064],
-            [-9.0177343, 42.5421231]
-          ]]
+          "type": "Point",
+          "properties": {"name": "Puebla"},
+          "coordinates": [-8.8695202, 42.6660563]
+        },
+        {
+          "type": "LineString",
+          "properties": {"name": "Ribeira to Puebla"},
+          "arcs": [[0, 1]]
         }
       ]
     }
   },
-  "arcs": []
+  "arcs": [
+    [[-9.0177343, 42.5421231], [-8.8695202, 42.6660563]]
+  ]
 }
 ```
 
