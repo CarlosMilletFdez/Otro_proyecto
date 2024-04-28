@@ -190,7 +190,7 @@ Para mencionar a unha persoa ou equipo empregamos o símbolo `@` xunto co nome d
 
 @narfesan Como te va con el trabajo?
 
-> ![NOTE]
+> [!NOTE]
 > Só se notifica a un usuario se ten acceso de lectura ó repositorio ou se é membro da organización á que pertence o repositorio.
 
 -------------------
