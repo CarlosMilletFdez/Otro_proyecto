@@ -537,17 +537,27 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
 {
   "type": "Topology",
   "transform": {
-    "scale": [1, 1],
-    "translate": [0, 0]
+    "scale": [0.0005000500050005, 0.00010001000100010001],
+    "translate": [100, 0]
   },
   "objects": {
     "galicia": {
       "type": "GeometryCollection",
       "geometries": [
         {
+          "type": "Point",
+          "properties": {"name": "Ribeira"},
+          "coordinates": [4000, 5000]
+        },
+        {
+          "type": "Point",
+          "properties": {"name": "Puebla"},
+          "coordinates": [6000, 7000]
+        },
+        {
           "type": "LineString",
           "properties": {"name": "Ribeira to Puebla"},
-          "coordinates": [[-9.0177343, 42.5421231], [-8.8695202, 42.6660563]]
+          "coordinates": [[4000, 5000], [6000, 7000]]
         }
       ]
     }
