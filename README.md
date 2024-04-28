@@ -553,10 +553,7 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
       "coordinates": [-9.0177343, 42.5421231]
     }
   },
-  "arcs": [],
-  "bbox": [-9.03, 42.53, -9, 42.56], 
-  "center": [-9.0177343, 42.5421231], 
-  "zoom": 12 
+  "arcs": []
 }
 ```
 
