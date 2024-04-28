@@ -561,6 +561,12 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
 
 ### Expresións matemáticas
 
+A representación de expresións matemáticas de GitHub emprega MathJax, un motor de visualización baseado en JavaScript. A representación de expresións matemáticas está dispoñible nos arquivos GitHub Issues, GitHub Discussions, solicitudes de incorporación de cambios, wikis e Markdown.
+
+#### Escritura de expresións insertadas
+
+Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a expresión con símbolos de dólar `$` ou iniciar a expresión con `$`` e terminala con ``&`.
+
 -------------------
 
 ### Adxuntar arquivos
