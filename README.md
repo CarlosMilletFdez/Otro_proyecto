@@ -494,23 +494,14 @@ Empregando a sintaxe GeoJSON poderemos crear mapas interactivos. Para isto agreg
 
 ```geojson
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-87.5, 32.5]
-      },
-      "properties": {
-        "radius": 50000
-      }
-    }
-  ]
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.5448445, 42.8782132]
+  },
+  "properties": {
+    "name": "Santiago de Compostela"
+  }
 }
 ```
 
@@ -533,6 +524,17 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
           "type": "Point",
           "properties": {"name": "Ribeira"},
           "coordinates": [-9.0177343, 42.5421231]
+        },
+        {
+          "type": "Polygon",
+          "properties": {"name": "Circulo"},
+          "coordinates": [[
+            [-9.0177343, 42.5421231],
+            [-9.0148882, 42.5425656],
+            [-9.0142746, 42.5377489],
+            [-9.0171207, 42.5373064],
+            [-9.0177343, 42.5421231]
+          ]]
         }
       ]
     }
