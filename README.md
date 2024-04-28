@@ -347,7 +347,7 @@ Podemos ocultar contidos temporalmente mediante secións contraídas que podemos
 
 <details>
   
-<sumary>Deitado frente ó mar</sumary>
+<summary>Deitado frente ó mar</summary>
   
   "Lingoa proletaria do meu pobo
 eu fáloa porque sí, porque me gosta,
