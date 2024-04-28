@@ -565,12 +565,17 @@ A representación de expresións matemáticas de GitHub emprega MathJax, un moto
 
 #### Escritura de expresións insertadas
 
-Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a expresión con símbolos de dólar `$` ou iniciar a expresión con $ seguido de comilla simple `\`` e terminala con $ precedido de comilla simple, en ambos casos antes da expresión deberemos empregar a barra inclinada '\'.
+Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a expresión con símbolos de dólar `$` ou iniciar a expresión con $ seguido de comilla simple e terminala con $ precedido de comilla simple, en ambos casos antes da expresión deberemos empregar a barra inclinada.
 
 - Esta expresión matemática emprega o símbolo `$`: $\sqrt{a+b}+(a+b)^2$
 
 - Esta e a mesma expresión que arriba empregando `$` e comillas simples: $`\sqrt{a+b}+(a+b)^2`$
 
+#### Escritura de expresións como bloques
+
+Para agregar unha expresión matemática en bloque, teremos que delimitala con dous símbolos de dolar `$$`.
+
+$$\left| \int_{a}^{b} f(x) \, dx \right|^2 \leq \left( \int_{a}^{b} |f(x)|^2 \, dx \right) \cdot \left( \int_{a}^{b} 1 \, dx \right)$$
 
 -------------------
 
