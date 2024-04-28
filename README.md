@@ -554,9 +554,9 @@ Se empregamos o identificador `topojson` poderemos especificar coordenadas e for
     }
   },
   "arcs": [],
-  "bbox": [-9.03, 42.53, -9, 42.56], // Ajustar la bounding box para centrar en Ribeira
-  "center": [-9.0177343, 42.5421231], // Establecer el centro en Ribeira
-  "zoom": 12 // Establecer un nivel de zoom adecuado para Ribeira
+  "bbox": [-9.03, 42.53, -9, 42.56], 
+  "center": [-9.0177343, 42.5421231], 
+  "zoom": 12 
 }
 ```
 
