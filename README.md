@@ -39,7 +39,7 @@
 Os encabezados en Markdown créanse antepoñendo de 1 a 6 símbolos #, seguido dun espazo e o texto do encabezado. Cantos máis símbolos se antepoñan ó encabezado menor será o tamaño do texto:
 
 # Este é o encabezado con 1 '#'
-## Este é o encabezado con 2 '#'
+## Este é o encabezado con 2 '##'
 ### Este é o encabezado con 3 '###'
 #### Este é o encabezado con 4 '####'
 ##### Este é o encabezado con 5 '#####'
@@ -190,8 +190,8 @@ Para mencionar a unha persoa ou equipo empregamos o símbolo `@` xunto co nome d
 
 @narfesan Como te va con el trabajo?
 
->![NOTE]
->Só se notifica a un usuario se ten acceso de lectura ó repositorio ou se é membro da organización á que pertence o repositorio.
+> ![NOTE]
+> Só se notifica a un usuario se ten acceso de lectura ó repositorio ou se é membro da organización á que pertence o repositorio.
 
 -------------------
 
@@ -208,7 +208,9 @@ Configurando as referencias autovinculadas para un repositorio, as referencias a
 Por exemplo:
 
 Prefijo de referencia: `JIRA-`
+
 URL de destino: `https://jira.example.com/issue?query=<num>`
+
 Versión preliminar: `JIRA-123` se convierte en `https://jira.example.com/issue?query=123`
 
 -------------------
@@ -329,7 +331,7 @@ Podemos ocultar contidos temporalmente mediante secións contraídas que podemos
 
 <details>
   
-<sumary> Deitado frente ó mar </sumary>
+<sumary>Deitado frente ó mar</sumary>
   
   "Lingoa proletaria do meu pobo
 eu fáloa porque sí, porque me gosta,
