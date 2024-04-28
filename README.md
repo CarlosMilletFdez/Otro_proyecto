@@ -565,7 +565,7 @@ A representación de expresións matemáticas de GitHub emprega MathJax, un moto
 
 #### Escritura de expresións insertadas
 
-Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a expresión con símbolos de dólar `$` ou iniciar a expresión con `$` e terminala con `&`.
+Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a expresión con símbolos de dólar `$` ou iniciar a expresión con $ seguido de comilla simple ``` e terminala con $ precedido de comilla simple ```.
 
 -------------------
 
