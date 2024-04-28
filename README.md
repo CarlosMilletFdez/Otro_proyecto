@@ -145,7 +145,6 @@ Tamén podemos especificar o tema para o que se amosa unha imaxe co elemento `<p
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://assets.stickpng.com/thumbs/580b57fbd9996e24bc43bb3e.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://assets.stickpng.com/thumbs/5a0ad6bc5a997e1c2cea10f7.png">
   <img alt="A imaxe amosa un galo en modo claro e morcego en modo oscuro." src="https://assets.stickpng.com/thumbs/5a0ad6bc5a997e1c2cea10f7.png">
 </picture>
 
