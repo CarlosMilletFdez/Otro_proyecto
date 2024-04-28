@@ -348,6 +348,7 @@ Podemos ocultar contidos temporalmente mediante secións contraídas que podemos
 <details>
   
 <summary>Deitado frente ó mar</summary>
+
   
   "Lingoa proletaria do meu pobo
   
@@ -485,6 +486,60 @@ graph TD;
 	3-->4;
 	4-->5;
 	5-->1;
+```
+
+#### Uso de GeoJSON
+
+Empregando a sintaxe GeoJSON poderemos crear mapas interactivos. Para isto agregamos a sintaxe dentro dun bloque de código delimitado, como no apartado anterior, pero co identificador `geojson`.
+
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.5, 32.5]
+      },
+      "properties": {
+        "radius": 50000
+      }
+    }
+  ]
+}
+```
+
+#### Uso de TopoJSON
+
+Se empregamos o identificador `topojson` poderemos especificar coordenadas e formas.
+
+```topojson
+{
+  "type": "Topology",
+  "transform": {
+    "scale": [1, 1],
+    "translate": [0, 0]
+  },
+  "objects": {
+    "galicia": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "properties": {"name": "Ribeira"},
+          "coordinates": [-9.0177343, 42.5421231]
+        }
+      ]
+    }
+  },
+  "arcs": []
+}
+```
 
 -------------------
 
