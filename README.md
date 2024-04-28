@@ -564,7 +564,7 @@ A representación de expresións matemáticas de GitHub emprega MathJax, un moto
 
 #### Escritura de expresións insertadas
 
-Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a expresión con símbolos de dólar `$` ou iniciar a expresión con $ seguido de comilla simple e terminala con $ precedido de comilla simple, en ambos casos antes da expresión deberemos empregar a barra inclinada.
+Hai dúas opcións para delimitar unha expresión matemática inserta. Rodear a expresión con símbolos de dólar `$` ou iniciar a expresión con $ seguido de comilla simple <span>`</span> e terminala con $ precedido de comilla simple, en ambos casos antes da expresión deberemos empregar a barra inclinada.
 
 - Esta expresión matemática emprega o símbolo `$`: $\sqrt{a+b}+(a+b)^2$
 
@@ -582,11 +582,29 @@ $$\left| \int_{a}^{b} f(x) \, dx \right|^2 \leq \left( \int_{a}^{b} |f(x)|^2 \, 
 
 ### Adxuntar arquivos
 
-Para adxuntar un arquivo a unha proposta ou unha conversa de solicitude de extracción, arrastramos o arquivo e soltámolo no cador de comentarios. Tamén podemos facelo clicando na icona de adxuntar, na barra de formato do cadro de comentario.
+Para adxuntar un arquivo a unha proposta ou a unha conversa de solicitude de extracción, arrastramos o arquivo e soltámolo no cadro de comentarios. Tamén podemos facelo clicando na icona de adxuntar, na barra de formato do cadro de comentario.
 
 Ó adxuntar un arquivo, cárgase en GitHub e amosa a URL anonimizada do arquivo. 
 
-O tamaño máximo do arquivo é:
+O tamaño máximo do arquivo é: 
+- 10MB para imaxes e gif.
+- 10MB para vídeos que se suban a un repositorio con plan gratuito de GitHub, sendo propietario do repositorio.
+- 100MB para vídeos que se suban a un repositorio con plan de pago.
+- 25MB para o resto de arquivos.
+
+Os formatos de arquivos compatibles son:
+- PNG(.png)
+- GIF(.gif)
+- JPEG(.jpeg)
+- SVG(.svg)
+- Arquivos de rexistro(.log)
+- Arquivos de Markdown(.md)
+- Documentos de Microsoft Word(.docx), PowerPoint(.pptx) e Excel(.xlsx)
+- Arquivos de texto(.txt)
+- Arquivos de revisión(.patch)
+- PDFs(.pdf)
+- ZIP(.zip, .gz, .tgz)
+- Vídeo(.mp4, .mov, .webm)
 
 -------------------
 
