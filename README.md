@@ -89,7 +89,7 @@ Pódese entrecomillar un texto co símbolo `>` para resaltar unha cita.
 
 ### Código de cita
 
-Pódese resaltar un código mediante comillas simples ` ou un bloque de código entre comillas triples ```. 
+Pódese resaltar un código mediante comillas simples ` ou un bloque de código entre comillas triples <span>```</span>. 
 
 Comando simple:
 `git init`
