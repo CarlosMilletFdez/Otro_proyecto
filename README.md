@@ -89,7 +89,7 @@ Pódese entrecomillar un texto co símbolo `>` para resaltar unha cita.
 
 ### Código de cita
 
-Pódese resaltar un código mediante comillas simples ` ou un bloque de código entre comillas triples <span>```</span>. 
+Pódese resaltar un código mediante comillas simples ` ou un bloque de código entre comillas triples ```. 
 
 Comando simple:
 `git init`
@@ -133,7 +133,7 @@ Podemos definir enlaces relativos, para chegar a outro arquivo dende o actual, e
 
 ### Imaxes
 
-Pódense amosar imaxes empregando o símbolo `!` seguido do texto alternativo entre corchetes ´[]´, seguido do vínculo da imaxe entre parénteses `()`.
+Pódense amosar imaxes empregando o símbolo `!` seguido do texto alternativo entre corchetes `[]`, seguido do vínculo da imaxe entre parénteses `()`.
 
 ![Imaxe de proba para insertar unha imaxe nun README con linguaxe de marcado](https://www.enriquedans.com/wp-content/uploads/2018/06/GitHub-Octocat.jpg)
 
@@ -297,7 +297,7 @@ Para facer comentarios ocultos empregamos a mesma sintaxte que para un comentari
 
 ### Ignorar formato de Markdown
 
-GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir. Tamén podemos omitir o Markdown incluindo os caracteres a ignorar entre etiquetas co identificador "span".
+GitHub vai ignorar o formato de marcado se empregamos unha barra inclinada `\` antes do carácter que queremos omitir.
 
 *Este texto está en cursiva*
 
@@ -524,34 +524,6 @@ Empregando a sintaxe GeoJSON poderemos crear mapas interactivos. Para isto agreg
       }
     }
   ]
-}
-```
-
-#### Uso de TopoJSON
-
-Se empregamos o identificador `topojson` poderemos especificar coordenadas e formas.
-
-```topojson
-{
-  "type": "Topology",
-  "transform": {
-    "scale": [1, 1],
-    "translate": [0, 0]
-  },
-  "objects": {
-    "line": {
-      "type": "LineString",
-      "coordinates": [
-        [-9.0177343, 42.5421231],
-        [-8.8695202, 42.6660563]
-      ]
-    },
-    "ribeira": {
-      "type": "Point",
-      "coordinates": [-9.0177343, 42.5421231]
-    }
-  },
-  "arcs": []
 }
 ```
 
